@@ -1,3 +1,7 @@
+/* ---------------------------------- */
+/* Global Declarations  */
+/* ---------------------------------- */
+
 * {
 
 margin: 0;
@@ -11,8 +15,7 @@ font-family: monospace;
 }
 
 body {
-background-color: #222222;
-
+    background-color: #222222;
 }
 
 p {
@@ -26,12 +29,40 @@ button {
     color: white;
     font-size: 1.3em;
 }
-.outer-container {
-    padding : 10px;
+
+/* ---------------------------*/
+/* outer-container section */
+/* -------------------------- */
+
+.outer-container  {
+    padding: 10px;
+    height: 100vh;
 }
 
+/* ------------------- */
+/* Top bar container  */
+/* ----------------- */
  .top-bar p {
         float: right ;
+}
 
+/* ------------------- */
+/* Inner-Container Section  */
+/* ----------------- */
+.inner-container {
+    background-color: black;
+    height: 100%;
 
 }
+
+
+
+/* ------------------- */
+/* Header/Quiz Intro Section  */
+/* ----------------- */
+
+
+
+/* ------------------- */
+/* Main Quiz Content  */
+/* ----------------- */
