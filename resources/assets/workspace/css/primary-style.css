@@ -8,9 +8,12 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
+/* debugging */
 border: 1px solid red;
 
+/* global default font */
 font-family: monospace;
+color: white;
 
 }
 
@@ -19,15 +22,17 @@ body {
 }
 
 p {
-    color: white;
     font-size: 1.3em;
 }
 
 button {
     outline: none;
     background-color: black;
-    color: white;
     font-size: 1.3em;
+}
+
+h1,h2 {
+    color: rgb(255, 255, 171);
 }
 
 /* ---------------------------*/
@@ -53,8 +58,13 @@ button {
 /* Inner-Container Section  */
 /* ----------------- */
 .inner-container {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
     height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -63,6 +73,12 @@ button {
 /* ------------------- */
 /* Header/Quiz Intro Section  */
 /* ----------------- */
+
+.quiz-intro {
+    margin-bottom: 20vh;
+    text-align: center;
+
+}
 
 
 
