@@ -32,3 +32,20 @@ button {
     border-radius: 8px;
     padding: 5px;
 }
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#answers button {
+    margin: 5px;
+}
+
+#alert h1 {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 5px solid;
+}
